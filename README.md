@@ -35,6 +35,39 @@ Before you begin, ensure you have **Node.js** (v18 or higher) installed on your 
    ```bash
    git clone [https://github.com/hrujulTodankar/Finance-Dashboard-UI](https://github.com/hrujulTodankar/Finance-Dashboard-UI)
 
-   
+2. **Navigate to the project directory**
+   ```bash
+   cd financedash
+
+3. **Install the dependencies**
+   ```bash
+   npm install
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+
+5. **Open your browser**
+Navigate to http://localhost:5173 to see the application running.
+
+
+## 📂 Project Structure
+- **src/components/FinanceContext.jsx:** The brains of the app. Handles the mock database, theme state, and smart insight calculations.
+
+- **src/components/Header.jsx:** Top navigation containing the logo, role switcher, and theme toggle.
+
+- **src/components/Dashboard.jsx:** The main analytics view containing summary cards, charts, and the Smart Insights engine.
+
+- **src/components/TransactionTable.jsx:** The interactive data table with search, filtering, and CRUD operations.
+
+- **src/components/AddTransactionModal.jsx:** The form interface for adding or editing financial records.
+
+
+## 💡 Usage Highlights
+- **Simulate Roles:** Use the dropdown in the top right to switch between Viewer and Admin to see how the UI restricts table actions.
+
+- **Test the Search:** Type "Groceries", "Netflix", or a specific number like "1500" into the transaction table search bar to see instant filtering.
+
+- **Toggle Dark Mode:** Click the sun/moon slider in the header to watch the entire UI smoothly transition color palettes using the "Canvas vs. Surface" design methodology.
 
 
