@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* This line forces Tailwind v4 to listen to our Dark Mode toggle switch! */
+@variant dark (&:where(.dark, .dark *));
+
+body {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+/* Base body styles for when dark mode is active */
+.dark body {
+  background-color: #111827;
+  color: #ffffff;
+}
